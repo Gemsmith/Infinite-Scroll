@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
   box-sizing: border-box;
@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   background: whitesmoke;
 }
 
@@ -37,11 +37,13 @@ h1 {
 
 .image-container {
   margin: 10px 30%;
+  column-count: 3;
 }
 
 .image-container img {
   margin-top: 5px;
   width: 100%;
+  break-inside: avoid;
 }
 
 @media screen and (max-width: 600px) {
